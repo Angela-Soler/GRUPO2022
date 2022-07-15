@@ -4,6 +4,9 @@
  */
 package trabajogrupo2022;
 
+import Clases.Deportista;
+import Clases.Doctor;
+
 /**
  *
  * @author user
@@ -16,6 +19,12 @@ public class TrabajoGrupo2022 {
     public static void main(String[] args) {
         // TODO code application logic here
             System.out.println("Trabajo Grupal. Programación Orientada a Objetos 2022");
+            
+            //Instanciamos las subclases
+            Doctor D = new Doctor();
+            Deportista De = new Deportista();
+            
+            
     }
     
 }
