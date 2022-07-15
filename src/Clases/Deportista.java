@@ -10,6 +10,7 @@ package Clases;
  */
 public class Deportista extends Persona {
     
+    // creacion de vriaables
     private String tipoNados;
     private String competiciones;
     
@@ -28,7 +29,7 @@ public class Deportista extends Persona {
         return("Natacion");
     }
     
-    //metodos establecer de la variables
+    //metodos establecer de la variables del deportista
     public void establecerTipoNados(String _tipoNados){
         this.tipoNados = _tipoNados;
     }
@@ -37,7 +38,7 @@ public class Deportista extends Persona {
         this.competiciones = _competiciones;
     }
     
-    //metodos obtener de la variables
+    //metodos obtener de la variables del deportista
     public String obtenerTipoNados(){
         return tipoNados;
     }
