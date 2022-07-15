@@ -9,6 +9,8 @@ package Clases;
  * @author Marlon_imachito
  */
 public class Doctor extends Persona {
+    
+    //variables privadas de la clase
     private String estudio;
     private String hospital;
     
