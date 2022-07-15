@@ -45,5 +45,6 @@ public class Doctor extends Persona {
     public String obtenerHospital(){
         return hospital;
     }
+    //termina el codigo de la clase Doctor
     
 }
