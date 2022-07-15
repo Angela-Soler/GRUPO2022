@@ -14,17 +14,17 @@ public class Deportista extends Persona {
     private String competiciones;
     
      @Override
-    String getNombre() {
+    public String getNombre() {
         return("Katherin Trochez");
     }
 
     @Override
-    int getEdad() {
+    public int getEdad() {
         return (25);
     }
 
     @Override
-    String getEspecialidad() {
+    public String getEspecialidad() {
         return("Natacion");
     }
     
