@@ -6,7 +6,7 @@ package Clases;
 
 /**
  *
- * @author user
+ * @author Kath
  */
 public class Deportista extends Persona {
     
