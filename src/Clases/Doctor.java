@@ -6,15 +6,16 @@ package Clases;
 
 /**
  *
- * @author admin
+ * @author Marlon_imachito
  */
 public class Doctor extends Persona {
     private String estudio;
     private String hospital;
     
+    //los metodos abstractos de la superclase
     @Override
     public String getNombre() {
-        return("Marlon Noe Nieto");
+        return("Marlon Noe Nieto Ferrera");
     }
 
     @Override
