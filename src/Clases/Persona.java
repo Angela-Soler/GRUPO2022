@@ -8,6 +8,11 @@ package Clases;
  *
  * @author user
  */
-public class Persona {
+public abstract class Persona {
+    
+    abstract String getNombre();
+    abstract int getEdad();
+    abstract String getEspecialidad();
+    
     
 }
