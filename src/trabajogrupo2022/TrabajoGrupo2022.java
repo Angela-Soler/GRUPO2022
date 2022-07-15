@@ -24,6 +24,23 @@ public class TrabajoGrupo2022 {
             Doctor D = new Doctor();
             Deportista De = new Deportista();
             
+            //Imprimimos los valores get y set de la clase Doctor
+            System.out.println("Nombre: "+D.getNombre());
+            System.out.println("Edad: "+D.getEdad());
+            System.out.println("Especialidd: "+D.getEspecialidad());
+            D.establecerEstudio("Especialista en Neurocirugia");
+            D.establecerHospital("Mario C. Rivas");
+            System.out.println("Estudios: "+D.obtenerEstudio());
+            System.out.println("Hospital:"+D.obtenerHospital());
+            
+            //Imprimimos los valores get y set de la clase Deportista
+            System.out.println("Nombre: "+De.getNombre());
+            System.out.println("Edad: "+De.getEdad());
+            System.out.println("Especialidad: "+De.getEspecialidad());
+            De.establecerTipoNados("Mariposa, Espalda, Brazada");
+            De.establecerCompeticiones("100, 50, 25 metros");
+            System.out.println("Tipos Nado:"+De.obtenerTipoNados());
+            System.out.println("Competiciones"+De.obtenerCompeticiones());
             
     }
     
