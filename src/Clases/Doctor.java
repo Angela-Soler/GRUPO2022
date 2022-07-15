@@ -13,17 +13,17 @@ public class Doctor extends Persona {
     private String hospital;
     
     @Override
-    String getNombre() {
+    public String getNombre() {
         return("Marlon Noe Nieto");
     }
 
     @Override
-    int getEdad() {
+    public int getEdad() {
         return (30);
     }
 
     @Override
-    String getEspecialidad() {
+    public String getEspecialidad() {
         return("Neurocirujano");
     }
     
