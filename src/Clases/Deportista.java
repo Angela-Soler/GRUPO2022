@@ -10,7 +10,7 @@ package Clases;
  */
 public class Deportista extends Persona {
     
-    // creacion de vriaables
+    // creacion de variables
     private String tipoNados;
     private String competiciones;
     
