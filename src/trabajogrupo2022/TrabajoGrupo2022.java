@@ -18,13 +18,14 @@ public class TrabajoGrupo2022 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-            System.out.println("Trabajo Grupal. Programación Orientada a Objetos 2022");
+            System.out.println("Trabajo Grupal. Programación Orientada a Objetos 2022\n");
             
             //Instanciamos las subclases
             Doctor D = new Doctor();
             Deportista De = new Deportista();
             
             //Imprimimos los valores get y set de la clase Doctor
+            System.out.println("IMPRIMIENDO DATOS DEL DOCTOR");
             System.out.println("Nombre: "+D.getNombre());
             System.out.println("Edad: "+D.getEdad());
             System.out.println("Especialidd: "+D.getEspecialidad());
@@ -34,6 +35,7 @@ public class TrabajoGrupo2022 {
             System.out.println("Hospital:"+D.obtenerHospital());
             
             //Imprimimos los valores get y set de la clase Deportista
+            System.out.println("\nIMPRIMIENDO DATOS DEL DEPORTISTA");
             System.out.println("Nombre: "+De.getNombre());
             System.out.println("Edad: "+De.getEdad());
             System.out.println("Especialidad: "+De.getEspecialidad());
